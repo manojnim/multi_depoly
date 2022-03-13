@@ -11,9 +11,9 @@ jobs:
     - name: Copy .htaccess
       run: touch .htaccess 
     - name: write .htacces
-      run: echo "<IfModule mod_rewrite.c> 
-           RewriteEngine On 
-           RewriteRule ^(.*)$ public/$1 [L]
+      run: echo "<IfModule mod_rewrite.c> \n
+           RewriteEngine On \n
+           RewriteRule ^(.*)$ public/$1 [L]\n
            </IfModule>" >> .htaccess
       
     - name: 📂 Sync files
