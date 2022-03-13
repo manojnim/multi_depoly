@@ -13,5 +13,5 @@ jobs:
       with:
         server-dir: ./public_html/
         server: ${{ secrets.FTP_SERVER }}
-        username: ${{ secrets.FTP_USERNAME2 }}
-        password: ${{ secrets.FTP_PASSWORD2 }}
+        username: ${{ secrets.FTP_USERNAME }}
+        password: ${{ secrets.FTP_PASSWORD }}
